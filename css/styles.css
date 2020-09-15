@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+body, html {
+  height: 100%;
+}
+
+html {
+  font-size: calc(1em + 1vw);
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 1.2em;
+  position: fixed;
+  background-color: transparent;
+  -webkit-transition: background .3s ease-in;
+  transition: background .3s ease-in;
+}
+
+header img {
+  height: 50%;
+}
+
+header nav {
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: none;
+}
+
+header nav ul {
+  background-color: #fff;
+  height: 100%;
+  width: 50%;
+  right: 0;
+  padding: 0.25rem 1.2em;
+}
+
+header nav ul li {
+  margin: 1.2rem 0;
+}
+
+header label {
+  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header label span {
+  width: 20px;
+  height: 3px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 2em;
+}
+
+header label span::before, header label span::after {
+  position: absolute;
+  content: '';
+  background-color: #fff;
+  height: 3px;
+  right: 0;
+  border-radius: 2em;
+}
+
+header label span::before {
+  width: 24px;
+  bottom: 7px;
+}
+
+header label span::after {
+  width: 16px;
+  top: 7px;
+}
+
+main section {
+  padding: 0.25rem 1.2em;
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+main section .grid-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(14em, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(14em, 1fr));
+}
+
+main section .title {
+  color: #FF3C74;
+  position: relative;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+main section .title::before {
+  position: absolute;
+  content: '';
+  height: 3.2px;
+  width: 20%;
+  left: 40%;
+  bottom: -3px;
+  border-radius: 1rem;
+  background: linear-gradient(145deg, #5DADE2, #FF3C74);
+}
+
+main #landing {
+  text-align: left;
+  min-height: 70vh;
+  position: relative;
+  padding-top: 35%;
+}
+
+main #landing button {
+  position: absolute;
+  bottom: 5em;
+  padding: .65em 1.2em;
+  outline: none;
+  background-color: #5DADE2;
+  color: #fff;
+  border-radius: .4em;
+  text-transform: uppercase;
+  font-size: .8rem;
+  outline: none;
+  border: transparent;
+}
+
+main #landing div p {
+  color: #eee;
+  font-size: 1.8em;
+  line-height: 1;
+}
+
+main #landing div p .txt {
+  color: #FF3C74;
+  border-right: 2px solid #FF3C74;
+}
+
+main #landing::before {
+  z-index: -1;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -43.75%);
+          transform: translate(-50%, -43.75%);
+  width: 100%;
+  height: 80vh;
+  background-color: #ae00ff;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("../assets/landing.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../assets/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+main #about {
+  margin-top: -6.5em;
+  height: auto;
+  text-align: center;
+}
+
+main #about h2, main #about p {
+  margin: 0.5rem 0;
+}
+
+main #about h2 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+main #about p {
+  font-size: .8rem;
+}
+
+main #about .text {
+  margin-top: -2.5em;
+}
+
+main #about .text span {
+  color: #5DADE2;
+  font-weight: 700;
+}
+
+main #choice {
+  text-align: center;
+}
+
+main #choice .card {
+  height: 280px;
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: .3fr 4.3fr .3fr;
+      grid-template-columns: .3fr 4.3fr .3fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+}
+
+main #choice .card .txt-wrap {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  background-color: #fff;
+  border-radius: 0 0 .35rem .35rem;
+  padding: .6rem;
+  -webkit-box-shadow: 0 0 25px -12px #999;
+          box-shadow: 0 0 25px -12px #999;
+}
+
+main #choice .card .txt-wrap h2 {
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  font-weight: 200;
+}
+
+main #choice .card .txt-wrap h2 span {
+  color: #5DADE2;
+  font-weight: 700;
+}
+
+main #choice .card .txt-wrap p {
+  font-size: .8rem;
+}
+
+main #choice .qualified, main #choice .experienced, main #choice .caring, main #choice .sms, main #choice .mobiledesign, main #choice .webdev {
+  position: relative;
+}
+
+main #choice .qualified::before, main #choice .experienced::before, main #choice .caring::before, main #choice .sms::before, main #choice .mobiledesign::before, main #choice .webdev::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 180px;
+  background-color: #FF3C74;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  border-radius: 0.35rem;
+}
+
+main #choice .qualified::before {
+  background-image: url("../assets/qualified.jpg");
+}
+
+main #choice .caring::before {
+  background-image: url("../assets/care.jpg");
+}
+
+main #choice .experienced::before {
+  background-image: url("../assets/experienced.jpg");
+}
+
+main #choice .sms::before {
+  background-image: url("../assets/sms.jpg");
+}
+
+main #choice .mobiledesign::before {
+  background-image: url("../assets/mobiledesign.jpg");
+}
+
+main #choice .webdev::before {
+  background-image: url("../assets/webdev.jpg");
+}
+
+main #team p {
+  font-size: .8rem;
+}
+
+main #team .grid-wrapper {
+  margin-top: 1.2em;
+}
+
+main #team .grid-wrapper .scene {
+  height: 300px;
+  -webkit-perspective: 600;
+          perspective: 600;
+  margin: 10px;
+}
+
+main #team .grid-wrapper .scene:hover .scene-card {
+  -webkit-transform: translateX(-100%) rotateY(-180deg);
+          transform: translateX(-100%) rotateY(-180deg);
+}
+
+main #team .grid-wrapper .scene .scene-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform-origin: center right;
+          transform-origin: center right;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+}
+
+main #team .grid-wrapper .scene .scene-card .card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: .35rem;
+  -webkit-box-shadow: 0 0 25px -10px #999;
+          box-shadow: 0 0 25px -10px #999;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+main #team .grid-wrapper .scene .scene-card .front {
+  background-color: #5DADE2;
+  background-size: cover;
+}
+
+main #team .grid-wrapper .scene .scene-card .back {
+  background-color: #FF3C74;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+main #team .grid-wrapper .scene .scene-card .leo {
+  background-image: url("../assets/images.jpeg");
+}
+
+main #team .grid-wrapper .scene .scene-card .pers2 {
+  background-image: url("../assets/img2.jpeg");
+}
+
+main #team .grid-wrapper .scene .scene-card .pers3 {
+  background-image: url("../assets/img3.png");
+}
+/*# sourceMappingURL=styles.css.map */
