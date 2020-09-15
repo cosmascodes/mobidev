@@ -186,8 +186,8 @@ main #landing::before {
   width: 100%;
   height: 80vh;
   background-color: #ae00ff;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("../assets/landing.jpg");
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../assets/landing.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("https://ik.imagekit.io/cosmascodes/mobidev/landing_ggCBmMCYHBJ.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("https://ik.imagekit.io/cosmascodes/mobidev/landing_ggCBmMCYHBJ.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -287,27 +287,27 @@ main #choice .qualified::before, main #choice .experienced::before, main #choice
 }
 
 main #choice .qualified::before {
-  background-image: url("../assets/qualified.jpg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/qualified_DMrFwnJU6FF.jpg");
 }
 
 main #choice .caring::before {
-  background-image: url("../assets/care.jpg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/care_H6EoNXuF0K.jpg");
 }
 
 main #choice .experienced::before {
-  background-image: url("../assets/experienced.jpg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/experienced_MwK0JEDqnV8.jpg");
 }
 
 main #choice .sms::before {
-  background-image: url("../assets/sms.jpg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/sms_0PnJcZF5xSY.jpg");
 }
 
 main #choice .mobiledesign::before {
-  background-image: url("../assets/mobiledesign.jpg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/mobiledesign_qcdZBDnqcq.jpg");
 }
 
 main #choice .webdev::before {
-  background-image: url("../assets/webdev.jpg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/webdev_izcKkqVV6.jpg");
 }
 
 main #team p {
@@ -368,14 +368,14 @@ main #team .grid-wrapper .scene .scene-card .back {
 }
 
 main #team .grid-wrapper .scene .scene-card .leo {
-  background-image: url("../assets/images.jpeg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/pers1_0Y-Q7ETnJDpq.jpg");
 }
 
 main #team .grid-wrapper .scene .scene-card .pers2 {
-  background-image: url("../assets/img2.jpeg");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/pers2_5xIcTr948mx.jpg");
 }
 
 main #team .grid-wrapper .scene .scene-card .pers3 {
-  background-image: url("../assets/img3.png");
+  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/pers3_xEC2_b3nqoc.jpg");
 }
 /*# sourceMappingURL=styles.css.map */
