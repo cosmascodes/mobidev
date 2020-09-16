@@ -362,7 +362,6 @@ main #team .grid-wrapper .scene .scene-card .front {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  position: relative;
 }
 main #team .grid-wrapper .scene .scene-card .front div {
   position: absolute;
