@@ -359,6 +359,23 @@ main #team .grid-wrapper .scene .scene-card .card-face {
 main #team .grid-wrapper .scene .scene-card .front {
   background-color: #5DADE2;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+}
+main #team .grid-wrapper .scene .scene-card .front div {
+  position: absolute;
+  bottom: 1.8rem;
+  left: 1rem;
+}
+
+main #team .grid-wrapper .scene .scene-card .front div h2 {
+  color: #000;
+}
+
+main #team .grid-wrapper .scene .scene-card .front div p {
+  text-align: left;
+  color: #555;
 }
 
 main #team .grid-wrapper .scene .scene-card .back {
@@ -368,14 +385,17 @@ main #team .grid-wrapper .scene .scene-card .back {
 }
 
 main #team .grid-wrapper .scene .scene-card .leo {
-  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/pers1_0Y-Q7ETnJDpq.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers2_5xIcTr948mx.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers2_5xIcTr948mx.jpg");
 }
 
 main #team .grid-wrapper .scene .scene-card .pers2 {
-  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/pers2_5xIcTr948mx.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers1_0Y-Q7ETnJDpq.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers1_0Y-Q7ETnJDpq.jpg");
 }
 
 main #team .grid-wrapper .scene .scene-card .pers3 {
-  background-image: url("https://ik.imagekit.io/cosmascodes/mobidev/pers3_xEC2_b3nqoc.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers3_xEC2_b3nqoc.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers3_xEC2_b3nqoc.jpg");
 }
 /*# sourceMappingURL=styles.css.map */
