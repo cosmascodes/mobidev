@@ -319,7 +319,7 @@ main #team .grid-wrapper {
 }
 
 main #team .grid-wrapper .scene {
-  height: 400px;
+  height: 430px;
   height: 300px;
   -webkit-perspective: 600;
           perspective: 600;
