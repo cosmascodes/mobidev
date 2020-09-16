@@ -398,4 +398,36 @@ main #team .grid-wrapper .scene .scene-card .pers3 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers3_xEC2_b3nqoc.jpg");
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers3_xEC2_b3nqoc.jpg");
 }
+main #team .grid-wrapper .scene .scene-card .pers4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers4_SF8sNnSDs.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers4_SF8sNnSDs.jpg");
+}
+
+main #team .grid-wrapper .scene .scene-card .pers5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers5_TyzpvbiR1.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers5_TyzpvbiR1.jpg");
+}
+
+main #team .grid-wrapper .scene .scene-card .pers6 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/pers6_OORILfTnDo.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/pers6_OORILfTnDo.jpg");
+}
+main #team .grid-wrapper .scene .scene-card .pers7 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/img3_Ip-HaIMdLKB.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/img3_Ip-HaIMdLKB.png");
+}
+
+main #team .grid-wrapper .scene .scene-card .pers8 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/img4_DeaRU3kvl.jpeg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/img4_DeaRU3kvl.jpeg");
+}
+
+main #team .grid-wrapper .scene .scene-card .pers9 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/img2_uAYR6khEQB.jpeg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/img2_uAYR6khEQB.jpeg");
+}
+main #team .grid-wrapper .scene .scene-card .pers10 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, 0.5))), url("https://ik.imagekit.io/cosmascodes/mobidev/case-studdy-people_vb7byMfnTn2.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("https://ik.imagekit.io/cosmascodes/mobidev/case-studdy-people_vb7byMfnTn2.png");
+}
 /*# sourceMappingURL=styles.css.map */
